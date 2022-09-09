@@ -1,0 +1,39 @@
+.back{
+    background-image: linear-gradient( rgb(255, 255, 255),rgb(26, 144, 142));
+    margin: 0;
+    height: 900px;
+}
+.menu ul{
+    list-style: none;
+    margin: 2%;
+
+}
+.menu ul li{
+    background-color: lightgrey;
+    width: 170px;
+    height: 50px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    font-size: 14px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.menu ul li:hover {
+    background: rgb(220, 157, 20);
+}
+.menu ul ul{
+    display: none;
+}
+.menu ul li:hover > ul{
+    display: block;
+}
+.menu ul ul ul{
+    margin-left: 150px;
+    
+    top: 0;
+    position: absolute;
+}
